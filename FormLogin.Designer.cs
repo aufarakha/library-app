@@ -38,7 +38,6 @@
             this.ckbRememberMe = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.cls_btn = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -197,16 +196,6 @@
             this.cls_btn.Text = "X";
             this.cls_btn.Click += new System.EventHandler(this.cls_btn_Click);
             // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(980, 80);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Size = new System.Drawing.Size(75, 23);
-            this.guna2ImageButton1.TabIndex = 171;
-            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = global::library_app.Properties.Resources.librarian;
@@ -224,7 +213,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1162, 692);
-            this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.cls_btn);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.ckbRememberMe);
@@ -254,6 +242,5 @@
         private Guna.UI2.WinForms.Guna2CheckBox ckbRememberMe;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2CircleButton cls_btn;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
     }
 }
