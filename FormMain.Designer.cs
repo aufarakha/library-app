@@ -155,6 +155,7 @@
             this.btnBorrowings.Text = "Borrowings";
             this.btnBorrowings.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnBorrowings.TextOffset = new System.Drawing.Point(40, 0);
+            this.btnBorrowings.Click += new System.EventHandler(this.btnBorrowings_Click);
             // 
             // btnBooks
             // 
@@ -278,7 +279,7 @@
             // 
             this.guna2DragControl1.TargetControl = this;
             // 
-            // frmMemberMain
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -294,7 +295,7 @@
             this.Controls.Add(this.pnlContainer);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmMemberMain";
+            this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.sPanel1.ResumeLayout(false);
